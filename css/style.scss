@@ -1,3 +1,7 @@
+$font-1: "Graduate", cursive;
+$font-2: "Playfair Display SC", serif;
+$size: 40px;
+
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&family=Graduate&family=Playfair+Display+SC&display=swap");
 
 * {
@@ -30,10 +34,10 @@ body {
 }
 .nav-link {
   margin: 0 10px;
-  font-family: "Playfair Display SC", serif;
+  font-family: $font-2;
 }
 .offcanvas-title {
-  font-family: "Graduate", cursive;
+  font-family: $font-1;
 }
 /* jumbotron */
 .jumbotron {
@@ -46,7 +50,7 @@ body {
     font-size: 55px;
     text-align: center;
     padding-top: 30px;
-    font-family: "Graduate", cursive;
+    font-family: $font-1;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: initial;
@@ -59,20 +63,20 @@ body {
 /* card */
 .titulo-prod {
   font-size: 42px;
-  font-family: "Graduate", cursive;
+  font-family: $font-1;
 }
 .card {
   margin-top: 5px;
 
   h5 {
     text-align: center;
-    font-family: "Playfair Display SC", serif;
+    font-family: $font-2;
   }
 }
 .btn {
   display: flex;
   justify-content: center;
-  font-family: "Playfair Display SC", serif;
+  font-family: $font-2;
 }
 .card-text {
   text-align: center;
@@ -83,12 +87,12 @@ body {
   padding-bottom: 20px;
 
   h2 {
-    font-size: 40px;
-    font-family: "Graduate", cursive;
+    font-size: $size;
+    font-family: $font-1;
   }
   h5 {
-    font-size: 40px;
-    font-family: "Playfair Display SC", serif;
+    font-size: $size;
+    font-family: $font-2;
   }
   p {
     font-size: 20px;
@@ -104,12 +108,12 @@ body {
   }
 }
 .galeria {
-  font-size: 40px;
-  font-family: "Graduate", cursive;
+  font-size: $size;
+  font-family: $font-1;
 
   h2 {
-    font-size: 40px;
-    font-family: "Graduate", cursive;
+    font-size: $size;
+    font-family: $font-1;
   }
 }
 /* formulario */
@@ -117,8 +121,8 @@ body {
   h2 {
     color: aliceblue;
     text-align: center;
-    font-size: 40px;
-    font-family: "Graduate", cursive;
+    font-size: $size;
+    font-family: $font-1;
   }
   p {
     color: aliceblue;
@@ -133,7 +137,7 @@ body {
 }
 .contactanos {
   p {
-    font-family: "Graduate", cursive;
+    font-family: $font-1;
     font-size: 32px;
   }
 }
@@ -193,8 +197,8 @@ body {
 /* footer */
 .footer {
   h2 {
-    font-size: 40px;
-    font-family: "Graduate", cursive;
+    font-size: $size;
+    font-family: $font-1;
     padding-bottom: 20px;
   }
 }
