@@ -11,35 +11,6 @@ body {
   background-image: url("../img/off-canvas.jpg");
 }
 
-.offcanvas-body {
-  background-image: url("../img/off-canvas.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.offcanvas-body ul li a {
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
-}
-
-.navbar img {
-  cursor: pointer;
-  height: 78px;
-}
-
-.nav-link {
-  margin: 0 10px;
-  font-family: "Playfair Display SC", serif;
-}
-
-.offcanvas-title {
-  font-family: "Graduate", cursive;
-}
-
 /* jumbotron */
 .jumbotron {
   background-image: url("../img/off-canvas.jpg");
@@ -250,5 +221,34 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.offcanvas-body {
+  background-image: url("../img/off-canvas.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.offcanvas-body ul li a {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar img {
+  cursor: pointer;
+  height: 78px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-family: "Playfair Display SC", serif;
+}
+
+.offcanvas-title {
+  font-family: "Graduate", cursive;
 }
 /*# sourceMappingURL=style.css.map */
