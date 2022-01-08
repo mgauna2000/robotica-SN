@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&family=Graduate&family=Playfair+Display+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Antic Slab", serif;
+}
+
+body {
+  background-image: url("../img/off-canvas.jpg");
+}
+
+.offcanvas-body {
+  background-image: url("../img/off-canvas.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.offcanvas-body ul li a {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar img {
+  cursor: pointer;
+  height: 78px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-family: "Playfair Display SC", serif;
+}
+
+.offcanvas-title {
+  font-family: "Graduate", cursive;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url("../img/off-canvas.jpg");
+  height: auto;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.jumbotron h1 {
+  font-size: 55px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Graduate", cursive;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* card */
+.titulo-prod {
+  font-size: 42px;
+  font-family: "Graduate", cursive;
+}
+
+.card {
+  margin-top: 5px;
+}
+
+.card h5 {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Playfair Display SC", serif;
+}
+
+.card-text {
+  text-align: center;
+}
+
+/* card company */
+.oficina-maquinaria {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.oficina-maquinaria h2 {
+  font-size: 40px;
+  font-family: "Graduate", cursive;
+}
+
+.oficina-maquinaria h5 {
+  font-size: 40px;
+  font-family: "Playfair Display SC", serif;
+}
+
+.oficina-maquinaria p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+/* carrusel */
+.carousel-inner {
+  padding: 20px;
+}
+
+.carousel-inner img {
+  height: 450px;
+}
+
+.galeria {
+  font-size: 40px;
+  font-family: "Graduate", cursive;
+}
+
+.galeria h2 {
+  font-size: 40px;
+  font-family: "Graduate", cursive;
+}
+
+/* formulario */
+.formulario h2 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Graduate", cursive;
+}
+
+.formulario p {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.form {
+  background-image: url("../img/off-canvas.jpg");
+}
+
+.card-img {
+  height: 450px;
+}
+
+.contactanos p {
+  font-family: "Graduate", cursive;
+  font-size: 32px;
+}
+
+/* 6 ejes */
+.seis-ejes {
+  margin-top: 90px;
+}
+
+.seis-ejes img {
+  height: 712px;
+  width: auto;
+}
+
+.seis-ejes p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* delta */
+.delta {
+  margin-top: 90px;
+}
+
+.delta img {
+  height: 712px;
+}
+
+.delta p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* paletizador */
+.paletizador {
+  margin-top: 90px;
+}
+
+.paletizador h4 {
+  font-size: 30px;
+}
+
+.paletizador p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+/* scara */
+.scara {
+  margin-top: 90px;
+}
+
+.scara img {
+  height: 712px;
+}
+
+.scara h4 {
+  font-size: 30px;
+}
+
+.scara p {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+/* footer */
+.footer h2 {
+  font-size: 40px;
+  font-family: "Graduate", cursive;
+  padding-bottom: 20px;
+}
+
+.copy {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
