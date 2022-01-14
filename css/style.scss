@@ -191,11 +191,18 @@ body {
 
 @import "_navbar";
 
+$estilos: (
+  display: flex,
+  flex-direction: row,
+  justify-content: space-around
+);
+
 .maps {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: map-get($estilos, display);
+  flex-direction: map-get($estilos, flex-direction);
+  justify-content: map-get($estilos, justify-content);
 }
+
 
 $redes: (
   red1: "Antic Slab",
