@@ -323,4 +323,37 @@ body {
   color: #fff;
   font-family: "Graduate";
 }
+
+.extens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.redsocial, .redsocial--nueva {
+  border: 3px solid #fff;
+  background-color: green;
+  height: 90px;
+  margin-bottom: 20px;
+  width: 450px;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.redsocial--nueva {
+  border-width: 3px;
+  background-color: blue;
+  font-size: "Graduate", cursive;
+}
 /*# sourceMappingURL=style.css.map */

@@ -223,3 +223,29 @@ $redes: (
     font-family: $font;
   }
 }
+
+// extens
+.extens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.redsocial {
+  border: 3px solid #fff;
+  background-color: green;
+  height: 90px;
+  margin-bottom: 20px;
+  width: 450px;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.redsocial--nueva {
+  @extend .redsocial;
+  border-width: 3px;
+  background-color: blue;
+  font-size: $font-1;
+}
