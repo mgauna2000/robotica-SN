@@ -356,4 +356,35 @@ body {
   background-color: blue;
   font-size: "Graduate", cursive;
 }
+
+.mixins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.box {
+  height: 200px;
+  width: 400px;
+  background-image: url("../img/whatsapp.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  height: 200px;
+  width: 400px;
+  background-image: url("../img/messenger.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */

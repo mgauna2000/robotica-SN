@@ -249,3 +249,27 @@ $redes: (
   background-color: blue;
   font-size: $font-1;
 }
+//mixins
+.mixins {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@mixin sizes($width, $height) {
+  height: $height;
+  width: $width;
+}
+.box {
+  @include sizes(400px, 200px);
+  background-image: url('../img/whatsapp.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.box2 {
+  @include sizes(400px, 200px);
+  background-image: url('../img/messenger.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
