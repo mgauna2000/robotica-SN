@@ -35,8 +35,16 @@
             <li class="nav-item m-2">
               <a class="nav-link" href="#inicio">Inicio</a>
             </li>
-            <li class="nav-item m-2">
-              <a class="nav-link" href="#productos">Productos</a>
+            <li class="nav-item m-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./pages/p-6-ejes.html">6 ejes</a></li>
+                <li><a class="dropdown-item" href="./pages/p-delta.html">Delta</a></li>
+                <li><a class="dropdown-item" href="./pages/p-paletizador.html">Paletizador</a></li>
+                <li><a class="dropdown-item" href="./pages/p-scara.html">Scara</a></li>
+              </ul>
             </li>
             <li class="nav-item m-2">
               <a class="nav-link" href="#compania">Compañia</a>
@@ -52,14 +60,33 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  <div class="container-fluid video-bg">
     <!-- JUMBOTRON -->
-    <div class="jumbotron mt-4 p-5 m-2 text-white rounded" id="inicio">
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+  <div class="overlay"></div>
+
+  <!-- The HTML5 video element that will create the background video on the header -->
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="./img/coverVideo.mp4" type="video/mp4">
+  </video>
+
+  <!-- The header content -->
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Somos una empresa dedicada a la Robotica</h1>
+        <p class="lead mb-0">Desde los modelos más pequeños con una carga útil de cuatro kilos y un alcance de medio metro,<br> hasta los
+          grandes robots paletizadores que mueven unas cargas útiles de hasta 250 kilogramos en un radio de tres
+          metros.<br> ABB ha instalado más de 300.000 robots en todo el mundo</p>
+      </div>
+    </div>
+  </div>
+    <!-- <div class="jumbotron mt-4 p-5 m-2 text-white rounded" id="inicio">
       <h1>Somos una empresa dedicada a la Robotica</h1>
       <p>Desde los modelos más pequeños con una carga útil de cuatro kilos y un alcance de medio metro,<br> hasta los
         grandes robots paletizadores que mueven unas cargas útiles de hasta 250 kilogramos en un radio de tres
         metros.<br> ABB ha instalado más de 300.000 robots en todo el mundo</p>
-    </div>
+    </div> -->
   </div>
   <!-- CARD PRODUCTOS-->
   <div class="container-fluid bg-dark p-3" id="productos">
@@ -259,24 +286,7 @@
       </div>
     </div>
   </div>
-  <!-- MAPS -->
-  <div class="container-fluid maps">
-    <div class="btn--red1"><a href="https://www.instagram.com/">Instagram</a></div>
-    <div class="btn--red2"><a href="https://www.facebook.com/">Facebook</a></div>
-    <div class="btn--red3"><a href="https://www.twitter.com/">Twitter</a></div>
-  </div>
-  <!-- EXTENS -->
-  <div class="container-fluid extens">
-    <div class="redsocial">WhatsApp</div>
-    <div class="redsocial--nueva">Messenger</div>
-  </div>
-  <!-- MIXINS -->
-  <div class="container-fluid mixins">
-    <a href="https://www.whatsapp.com/?lang=es"><div class="box"></div></a>
-    <a href="https://www.messenger.com/"><div class="box2"></div></a>
-  </div>
-  <!-- FOOTER -->
-  <footer class="footer bg-dark text-center text-white">
+  <footer class="footer text-center text-white">
     <div class="container p-1">
       <section class="">
         <div class="row d-flex justify-content-center">

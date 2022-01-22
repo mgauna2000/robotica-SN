@@ -1,0 +1,23 @@
+{
+  "name": "robotica-sn",
+  "version": "1.0.0",
+  "description": "Somos una empresa dedicada a la robotica, tenemos a la venta distintas gamas de productos destinados a fabricas nacionales e internacionales ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgauna2000/sass-proyecto.git"
+  },
+  "author": "Martin Gauna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgauna2000/sass-proyecto/issues"
+  },
+  "homepage": "https://github.com/mgauna2000/sass-proyecto#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -11,18 +11,22 @@ body {
   background-image: url("../img/off-canvas.jpg");
 }
 
-/* jumbotron */
-.jumbotron {
-  background-image: url("../img/off-canvas.jpg");
-  height: auto;
-  background-size: cover;
-  background-position: bottom;
+.navbar-light .navbar-toggler-icon {
+  background-color: gray;
 }
 
-.jumbotron h1 {
+.video-bg {
+  position: relative;
+  background-color: black;
+  height: 80vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-bg h1 {
   font-size: 55px;
-  text-align: center;
-  padding-top: 30px;
+  padding-top: 100px;
   font-family: "Graduate", cursive;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
@@ -32,14 +36,49 @@ body {
           animation-iteration-count: initial;
 }
 
-.jumbotron p {
+.video-bg p {
   font-size: 20px;
-  text-align: center;
+  padding-top: 30px;
+}
+
+.video-bg video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-bg .container {
+  position: relative;
+  z-index: 2;
+}
+
+.video-bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+.container-fluid {
+  background-image: url("../img/off-canvas.jpg");
 }
 
 /* card */
 .titulo-prod {
-  font-size: 42px;
+  font-size: 50px;
   font-family: "Graduate", cursive;
 }
 
@@ -120,7 +159,7 @@ body {
 }
 
 .form {
-  background-image: url("../img/off-canvas.jpg");
+  background-image: url("../img/1.jpg");
 }
 
 .card-img {
@@ -252,254 +291,27 @@ body {
   font-family: "Graduate", cursive;
 }
 
-.maps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.btn--red1 {
-  background-color: #333;
-  height: 100px;
-  width: 500px;
-  border: 2px solid #111;
-  text-align: center;
-  font-size: 50px;
-  line-height: 100px;
-  margin: 20px 0;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #f00;
-}
-
-.btn--red1 a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Antic Slab";
-}
-
-.btn--red2 {
-  background-color: #333;
-  height: 100px;
-  width: 500px;
-  border: 2px solid #111;
-  text-align: center;
-  font-size: 50px;
-  line-height: 100px;
-  margin: 20px 0;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #f00;
-}
-
-.btn--red2 a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Playfair Display SC";
-}
-
-.btn--red3 {
-  background-color: #333;
-  height: 100px;
-  width: 500px;
-  border: 2px solid #111;
-  text-align: center;
-  font-size: 50px;
-  line-height: 100px;
-  margin: 20px 0;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #f00;
-}
-
-.btn--red3 a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Graduate";
-}
-
-.extens {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.redsocial, .redsocial--nueva {
-  border: 3px solid #fff;
-  background-color: green;
-  height: 90px;
-  margin-bottom: 20px;
-  width: 450px;
-  padding: 20px;
-  text-align: center;
-  font-size: 50px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.redsocial--nueva {
-  border-width: 3px;
-  background-color: blue;
-  font-size: "Graduate", cursive;
-}
-
-.mixins {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.box {
-  height: 200px;
-  width: 400px;
-  background-image: url("../img/whatsapp.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
-}
-
-.box2 {
-  height: 200px;
-  width: 400px;
-  background-image: url("../img/messenger.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
-}
-
 @media only screen and (min-width: 380px) and (max-width: 480px) {
-  .btn--red1 {
-    background-color: #333;
-    height: 100px;
-    width: 150px;
-    border: 2px solid #111;
-    text-align: center;
+  .video-bg {
+    position: relative;
+    background-color: black;
+    height: 150vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  .video-bg h1 {
+    font-size: 45px;
+    font-family: "Graduate", cursive;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-name: aparecer;
+            animation-name: aparecer;
+    -webkit-animation-iteration-count: initial;
+            animation-iteration-count: initial;
+  }
+  .video-bg p {
     font-size: 20px;
-    line-height: 100px;
-    margin: 20px 0;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px #f00;
-  }
-  .btn--red1 a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "Antic Slab";
-  }
-  .btn--red2 {
-    background-color: #333;
-    height: 100px;
-    width: 150px;
-    border: 2px solid #111;
-    text-align: center;
-    font-size: 20px;
-    line-height: 100px;
-    margin: 20px 0;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px #f00;
-  }
-  .btn--red2 a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "Playfair Display SC";
-  }
-  .btn--red3 {
-    background-color: #333;
-    height: 100px;
-    width: 150px;
-    border: 2px solid #111;
-    text-align: center;
-    font-size: 20px;
-    line-height: 100px;
-    margin: 20px 0;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px #f00;
-  }
-  .btn--red3 a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "Graduate";
-  }
-  .extens {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .redsocial, .redsocial--nueva {
-    border: 3px solid #fff;
-    background-color: green;
-    height: 90px;
-    margin-bottom: 20px;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    line-height: 45px;
-    text-transform: uppercase;
-    color: #fff;
-  }
-  .redsocial--nueva {
-    border-width: 3px;
-    background-color: blue;
-    font-size: "Graduate", cursive;
-  }
-  .mixins {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .box {
-    height: 100px;
-    width: 200px;
-    background-image: url("../img/whatsapp.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
-  }
-  .box2 {
-    height: 100px;
-    width: 200px;
-    background-image: url("../img/messenger.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
