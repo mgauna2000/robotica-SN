@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("../img/off-canvas.jpg");
+  background-image: url("../img/bg.jpg");
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -70,10 +70,8 @@ body {
   z-index: 1;
 }
 
-/* Media Query for devices withi coarse pointers and no hover functionality */
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 .container-fluid {
-  background-image: url("../img/off-canvas.jpg");
+  background-image: url("../img/bg.jpg");
 }
 
 /* card */
