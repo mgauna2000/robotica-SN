@@ -17,6 +17,10 @@ body {
 .navbar-light .navbar-toggler-icon {
   background-color: gray;
 }
+.navbar-expand-lg .navbar-nav {
+ background-image: url("../img/bg.jpg");
+}
+
 // video-bg
 .video-bg {
   position: relative;
@@ -144,7 +148,12 @@ body {
   }
 }
 .form {
-  background-image: url("../img/1.jpg")
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+
+  button {
+    font-weight: 700;
+  }
 }
 .card-img {
   height: 450px;
@@ -250,6 +259,14 @@ body {
     }
     p {
       font-size: 20px;
+    }
+  }
+  .carousel-inner {
+    padding: 20px;
+  
+    img {
+      height: 350px;
+      background-size: cover;
     }
   }
 }
