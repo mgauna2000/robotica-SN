@@ -89,12 +89,17 @@ body {
   h5 {
     text-align: center;
     font-family: $font-2;
+    font-weight: 650;
+  }
+  p {
+    font-weight: 650;
   }
 }
 .btn {
   display: flex;
   justify-content: center;
   font-family: $font-2;
+  font-weight: 650;
 }
 .card-text {
   text-align: center;
@@ -115,6 +120,7 @@ body {
   p {
     font-size: 20px;
     padding-top: 20px;
+    font-weight: 600;
   }
 }
 /* carrusel */
@@ -267,6 +273,15 @@ body {
     img {
       height: 350px;
       background-size: cover;
+    }
+  }
+  .galeria {
+    font-size: $size;
+    font-family: $font-1;
+  
+    h2 {
+      font-size: 35px;
+      font-family: $font-1;
     }
   }
 }

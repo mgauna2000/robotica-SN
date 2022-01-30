@@ -91,6 +91,11 @@ body {
 .card h5 {
   text-align: center;
   font-family: "Playfair Display SC", serif;
+  font-weight: 650;
+}
+
+.card p {
+  font-weight: 650;
 }
 
 .btn {
@@ -101,6 +106,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Playfair Display SC", serif;
+  font-weight: 650;
 }
 
 .card-text {
@@ -126,6 +132,7 @@ body {
 .oficina-maquinaria p {
   font-size: 20px;
   padding-top: 20px;
+  font-weight: 600;
 }
 
 /* carrusel */
@@ -326,6 +333,14 @@ body {
   .carousel-inner img {
     height: 350px;
     background-size: cover;
+  }
+  .galeria {
+    font-size: 40px;
+    font-family: "Graduate", cursive;
+  }
+  .galeria h2 {
+    font-size: 35px;
+    font-family: "Graduate", cursive;
   }
 }
 /*# sourceMappingURL=style.css.map */
