@@ -16,7 +16,7 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
       <a href="../index.html"><img class="logo p-2" src="../img/logo_small.png" alt="logo" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -32,8 +32,29 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
+            <li class="nav-item m-2">
               <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item m-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="p-6-ejes.html">6 ejes</a></li>
+                <li><a class="dropdown-item" href="p-delta.html">Delta</a></li>
+                <li><a class="dropdown-item" href="p-paletizador.html">Paletizador</a></li>
+                <li><a class="dropdown-item" href="p-scara.html">Scara</a></li>
+              </ul>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link" href="#compania">Compañia</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link" href="#galeria">Galeria</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
