@@ -154,7 +154,7 @@ body {
   }
 }
 .form {
-  background-image: url("../img/1.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(../img/1.jpg);
   background-size: cover;
 
   button {
