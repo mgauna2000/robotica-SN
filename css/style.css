@@ -201,6 +201,10 @@ body {
   padding: 10px;
 }
 
+.list-group-item {
+  font-weight: 500;
+}
+
 /* delta */
 .delta {
   margin-top: 90px;
