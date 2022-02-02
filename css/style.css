@@ -347,5 +347,19 @@ body {
     font-size: 35px;
     font-family: "Graduate", cursive;
   }
+  .seis-ejes img {
+    height: 500px;
+    width: auto;
+  }
+  .delta img {
+    height: 500px;
+    width: auto;
+  }
+  .paletizador img {
+    width: 400px;
+  }
+  .scara img {
+    height: 500px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
